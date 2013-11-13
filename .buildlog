@@ -1,0 +1,545 @@
+---
+build.dart --machine --full
+
+build.dart finished [2090 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1837 ms]
+
+---
+build.dart --machine --changed=lib\Contacts.dart
+
+build.dart finished [1757 ms]
+
+---
+build.dart --machine --changed=web\mon_app.dart
+
+build.dart finished [2018 ms]
+
+---
+build.dart --machine --changed=web\mon_app.dart
+
+build.dart finished [1927 ms]
+
+---
+build.dart --machine --changed=web\mon_app.dart
+
+build.dart finished [1725 ms]
+
+---
+build.dart --machine --changed=web\mon_app.dart
+
+build.dart finished [1730 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.dart
+
+build.dart finished [1822 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.dart
+
+build.dart finished [1752 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.dart
+
+build.dart finished [1729 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.dart
+
+build.dart finished [1732 ms]
+
+---
+build.dart --machine --removed=web\clickcounter.dart
+
+build.dart finished [1746 ms]
+
+---
+build.dart --machine --removed=web\clickcounter.html
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+build.dart finished [1702 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+build.dart finished [1909 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+[{"method":"error","params":{"file":"web/mon_app.html","message":"couldn't find imported asset \"web/web_contacts.html\" in package \"PolymerExo8\".","line":2,"charStart":35,"charEnd":79}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":97,"charEnd":111}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+build.dart finished [1733 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.dart
+[{"method":"error","params":{"file":"web/mon_app.html","message":"couldn't find imported asset \"web/web_contacts.html\" in package \"PolymerExo8\".","line":2,"charStart":35,"charEnd":79}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":97,"charEnd":111}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+build.dart finished [1823 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":97,"charEnd":111}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+build.dart finished [1775 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+build.dart finished [1721 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+build.dart finished [2125 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+build.dart finished [1860 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+build.dart finished [1783 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+build.dart finished [1958 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+build.dart finished [1827 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":60,"charStart":1604,"charEnd":1660}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":62,"charStart":1760,"charEnd":1771}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template). Ignored.","line":62,"charStart":1760,"charEnd":1771}}]
+build.dart finished [1766 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":60,"charStart":1606,"charEnd":1662}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":62,"charStart":1762,"charEnd":1773}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template). Ignored.","line":62,"charStart":1762,"charEnd":1773}}]
+build.dart finished [1753 ms]
+
+---
+build.dart --machine --changed=web\css\img\arrow-right.gif --changed=web\css\img\target.gif --changed=web\css\l...
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"error","params":{"file":"web/polymerexo8.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"PolymerExo8\".","line":10,"charStart":188,"charEnd":232}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":496,"charEnd":521}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":60,"charStart":1606,"charEnd":1662}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":62,"charStart":1762,"charEnd":1773}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template). Ignored.","line":62,"charStart":1762,"charEnd":1773}}]
+build.dart finished [2689 ms]
+
+---
+build.dart --machine --changed=web\polymerexo8.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"my-app\" not found.","line":18,"charStart":479,"charEnd":487}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":60,"charStart":1606,"charEnd":1662}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":62,"charStart":1762,"charEnd":1773}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template). Ignored.","line":62,"charStart":1762,"charEnd":1773}}]
+build.dart finished [2265 ms]
+
+---
+build.dart --machine --changed=web\polymerexo8.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"Unexpected end tag (my-app). Ignored.","line":18,"charStart":488,"charEnd":497}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"Unexpected end tag (mon-app). Missing end tag (body).","line":19,"charStart":500,"charEnd":507}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":60,"charStart":1606,"charEnd":1662}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":62,"charStart":1762,"charEnd":1773}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template). Ignored.","line":62,"charStart":1762,"charEnd":1773}}]
+build.dart finished [2318 ms]
+
+---
+build.dart --machine --changed=web\polymerexo8.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":60,"charStart":1606,"charEnd":1662}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":62,"charStart":1762,"charEnd":1773}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template). Ignored.","line":62,"charStart":1762,"charEnd":1773}}]
+build.dart finished [2319 ms]
+
+---
+build.dart --machine --changed=web\mon_app.dart
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":60,"charStart":1606,"charEnd":1662}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":62,"charStart":1762,"charEnd":1773}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template). Ignored.","line":62,"charStart":1762,"charEnd":1773}}]
+build.dart finished [2287 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":60,"charStart":1606,"charEnd":1662}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":62,"charStart":1762,"charEnd":1773}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template). Ignored.","line":62,"charStart":1762,"charEnd":1773}}]
+build.dart finished [2328 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.dart
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":60,"charStart":1606,"charEnd":1662}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":62,"charStart":1762,"charEnd":1773}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template). Ignored.","line":62,"charStart":1762,"charEnd":1773}}]
+build.dart finished [2296 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":60,"charStart":1606,"charEnd":1662}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":62,"charStart":1762,"charEnd":1773}}]
+[{"method":"warning","params":{"file":"web/web_contacts.html","message":"Unexpected end tag (template). Ignored.","line":62,"charStart":1762,"charEnd":1773}}]
+build.dart finished [1821 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+build.dart finished [1855 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+build.dart finished [1782 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+build.dart finished [1796 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+build.dart finished [1802 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":201,"charEnd":219}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-links\" not found.","line":4,"charStart":100,"charEnd":111}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":201,"charEnd":219}}]
+build.dart finished [4853 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":207,"charEnd":225}}]
+build.dart finished [2254 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":209,"charEnd":227}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"definition for Polymer element with tag name \"web-contacts\" not found.","line":4,"charStart":100,"charEnd":114}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected end tag (polymer-element). Ignored.","line":7,"charStart":209,"charEnd":227}}]
+build.dart finished [1993 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"web/mon_app.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"definition for Polymer element with tag name \"mon-app\" not found.","line":18,"charStart":479,"charEnd":488}}]
+build.dart finished [1952 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+
+build.dart finished [1845 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+
+build.dart finished [1844 ms]
+
+---
+build.dart --machine --changed=web\polymerexo8.html
+[{"method":"warning","params":{"file":"web/polymerexo8.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"message":"To run a polymer applications, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports."}}]
+[{"method":"warning","params":{"message":"To run a polymer applications in Dartium, make sure to include'<script src=\"packages/browser/dart.js\"></script>' in your page"}}]
+build.dart finished [2041 ms]
+
+---
+build.dart --machine --changed=web\polymerexo8.html
+
+build.dart finished [2062 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+
+build.dart finished [1962 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+
+build.dart finished [1921 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+
+build.dart finished [1930 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+
+build.dart finished [1813 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+
+build.dart finished [1867 ms]
+
+---
+build.dart --machine --changed=web\mon_app.dart
+
+build.dart finished [2193 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.dart
+
+build.dart finished [1843 ms]
+
+---
+build.dart --machine --changed=lib\Contacts.dart
+
+build.dart finished [1891 ms]
+
+---
+build.dart --machine --changed=lib\Contacts.dart
+
+build.dart finished [1897 ms]
+
+---
+build.dart --machine --changed=lib\Contacts.dart
+
+build.dart finished [2097 ms]
+
+---
+build.dart --machine --changed=lib\Contacts.dart
+
+build.dart finished [2050 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+
+build.dart finished [1941 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+
+build.dart finished [1962 ms]
+
+---
+build.dart --machine --changed=lib\Contacts.dart
+
+build.dart finished [1835 ms]
+
+---
+build.dart --machine --changed=lib\contacts.dart --removed=lib\Contacts.dart
+
+build.dart finished [1821 ms]
+
+---
+build.dart --machine --changed=lib\contacts.dart
+
+build.dart finished [2201 ms]
+
+---
+build.dart --machine --changed=lib\contacts.dart
+
+build.dart finished [1883 ms]
+
+---
+build.dart --machine --changed=lib\contacts.dart
+
+build.dart finished [1802 ms]
+
+---
+build.dart --machine --changed=lib\contacts.dart
+
+build.dart finished [1953 ms]
+
+---
+build.dart --machine --changed=lib\contacts.dart
+
+build.dart finished [1823 ms]
+
+---
+build.dart --machine --changed=lib\contacts.dart
+
+build.dart finished [3426 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+
+build.dart finished [2217 ms]
+
+---
+build.dart --machine --changed=lib\contacts.dart
+
+build.dart finished [1966 ms]
+
+---
+build.dart --machine --changed=lib\contacts.dart
+
+build.dart finished [1852 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [2076 ms]
+
+---
+build.dart --machine --full
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [5677 ms]
+
+---
+build.dart --machine --changed=web\polymerexo8.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [2346 ms]
+
+---
+build.dart --machine --changed=web\polymerexo8.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1783 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1949 ms]
+
+---
+build.dart --machine --changed=web\mon_app.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1883 ms]
+
+---
+build.dart --machine --changed=README.md
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1873 ms]
+
+---
+build.dart --machine --changed=README.md
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1985 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1907 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1979 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1821 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1871 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1808 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1903 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1856 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [2082 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1876 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1780 ms]
+
+---
+build.dart --machine --changed=web\web_contacts.html
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [1768 ms]
+
+---
+build.dart --machine --changed=web\mon_app.dart
+warning: now that main takes arguments, you need to explicitly pass options to build(). Running as if no options were passed.
+build.dart finished [2098 ms]
+

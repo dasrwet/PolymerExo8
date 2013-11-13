@@ -1,0 +1,76 @@
+<polymer-element name="web-contacts">
+  <template>
+    <style>
+      ul {
+        list-style: none;
+        padding: 2px;
+        text-align: left;
+      }
+      li {
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 18px;
+      }
+      a:link {
+        text-decoration: none;
+        font-weight: bold;
+        color: #003366;
+      }
+      a:visited {
+        text-decoration: none;
+        font-weight: bold;
+        color: #c50000;
+      }
+      a:hover {
+        text-decoration: none;
+        color: #d9ece2;
+        background: #663117;
+      }
+      .button {
+        padding: 1px;
+        background: #ffcc99;
+        border-right: 1px solid #999;
+        border-bottom: 1px solid #999;
+        border-style: outset;
+        border-color: #d7b9c9;
+        font-weight: bold;
+        text-align: center;
+      }
+      span {
+        width:150px; 
+      }
+       input {
+        width:150px; 
+      }
+    </style>
+    <form>
+      <pre>
+      <label for="cle">Cle</label>
+      <input id="cle" type="text" required/>
+      <label for="nom">Nom</label>
+      <input id="nom" type="text" />
+      <label for="prenom">Prenom</label>
+      <input id="prenom" type="text" />
+      <label for="phone">Phone</label>
+      <input id="phone" type="text" />
+      <label for="email">email</label>
+      <input id="email" type="text" />
+      <label for="adresse">Adresse</label>
+      <input id="adresse" type="text" />
+      </pre>
+      <button on-click="{{add}}" class="button">Add</button>
+      <button on-click="{{delete}}" class="button">Remove</button>
+      <label id="message"></label>
+    </form>
+    
+      <ul>
+      <template repeat="{{contact in contacts.internalList}}">
+        <li>
+            {{contact.cles}}
+        </li>
+      </template>
+    </ul>
+    
+  </template>
+  <script type="application/dart" src="web_contacts.dart"></script>
+</polymer-element>
