@@ -11,21 +11,7 @@
         padding-bottom: 1px;
         padding-left: 18px;
       }
-      a:link {
-        text-decoration: none;
-        font-weight: bold;
-        color: #003366;
-      }
-      a:visited {
-        text-decoration: none;
-        font-weight: bold;
-        color: #c50000;
-      }
-      a:hover {
-        text-decoration: none;
-        color: #d9ece2;
-        background: #663117;
-      }
+      
       .button {
         padding: 1px;
         background: #ffcc99;
@@ -36,17 +22,71 @@
         font-weight: bold;
         text-align: center;
       }
-      span {
-        width:150px; 
-      }
-       input {
-        width:150px; 
-      }
+      table {
+  font-size: 10pt;
+  font-family: 'verdana', sans-serif;
+  text-align: justify;
+  padding: 14px 14px 14px 14px;
+  width:885px;
+  background: white;
+  border:0;
+}
+
+table th{
+  background-image: url(image/title.png);
+  border: 0;
+}
+
+table td{
+padding: 2px 5px 2px 5px;
+border:0;
+background-color: #c8bfe7;
+}
+fieldset{
+  width:900px;
+  border-radius:25px;
+  background-image: url(image/bg.png);
+  
+}
+fieldset legend{
+  background-image: url(image/title1.png);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  width:350px;
+ padding: 5px 14px 15px 14px;
+ height: 10px
+}
+input {
+  width:250px;
+}
+pre{background-color:#f9f9f9; width:900px}
     </style>
-    <form>
-      <pre>
+    
+     <fieldset>
+          <legend>Gestion des contacts</legend>
+      <table>
+       <tr><th>Cle</th><th>Nom</th><th>Prenom</th><th>Phone</th><th>Email</th><th>Adresse</th><th>Modif</th><th>Supp</th></tr>
+      <tbody template repeat="{{contact in contacts.internalList}}">
+        <tr>
+            <td>{{contact.cles}}</td>
+            <td>{{contact.nom}}</td>
+            <td>{{contact.prenom}}</td>
+            <td>{{contact.phone}}</td>
+            <td>{{contact.email}}</td>
+            <td>{{contact.adresse}}</td>
+            <td><a on-click="{{mdf}}" ><img src="image/modifier.gif" id="{{contact.cles}}" title="{{contact.cles}}" border="0"/></a></td>
+            <td><a on-click="{{spm}}" ><img src="image/supprimer.gif" id="_{{contact.cles}}"  title="{{contact.cles}}" border="0" /></a></td>
+        </tr>
+      </tbody>
+    </table>
+    </fieldset>
+    
+    <pre>
       <label for="cle">Cle</label>
-      <input id="cle" type="text" required/>
+      <input id="cle" type="text" required disabled="disabled"/>
       <label for="nom">Nom</label>
       <input id="nom" type="text" />
       <label for="prenom">Prenom</label>
@@ -56,21 +96,10 @@
       <label for="email">email</label>
       <input id="email" type="text" />
       <label for="adresse">Adresse</label>
-      <input id="adresse" type="text" />
-      </pre>
-      <button on-click="{{add}}" class="button">Add</button>
-      <button on-click="{{delete}}" class="button">Remove</button>
+      <textarea id="adresse" rows="8" cols="50"></textarea>
+      <button on-click="{{add}}" class="button" id="adds">{{ajout}}</button>  <button on-click="{{delete}}" class="button">Remove</button>
       <label id="message"></label>
-    </form>
-    
-      <ul>
-      <template repeat="{{contact in contacts.internalList}}">
-        <li>
-            {{contact.cles}}
-        </li>
-      </template>
-    </ul>
-    
+    </pre>
   </template>
   <script type="application/dart" src="web_contacts.dart"></script>
 </polymer-element>

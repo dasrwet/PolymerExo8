@@ -1,3 +1,4 @@
+
 body {
   background-color: #F8F8F8;
   font-family: 'Open Sans', sans-serif;
@@ -8,15 +9,76 @@ body {
 }
 
 h1, p {
-  color: #333;
+  color: green;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  width:100%;
+  padding: 4px 4px 4px 4px;
+  background:#CECECE;
+  border-bottom: 1px solid #ccc;
+  
 }
 
 #sample_container_id {
-  width: 100%;
-  height: 400px;
-  position: relative;
+  width: auto;
+  height: auto;
+  
   border: 1px solid #ccc;
   background-color: #fff;
 }
 
+#sample_container_id2 {
+  width: auto;
+  height: auto;
+  
+  border: 1px solid #ccc;
+}
+.autre {
+  background: #f9f9f9;
+}
+#sample_text_id {
+  font-size: 24pt;
+  text-align: center;
+  margin-top: 140px;
+}
+table {
+  font-size: 10pt;
+  font-family: 'verdana', sans-serif;
+  text-align: justify;
+  padding: 14px 14px 14px 14px;
+  width:800px;
+  background: white;
+  border:0;
+}
 
+table th{
+  background-image: url(image/title.png);
+  border: 0;
+}
+
+table td{
+padding: 2px 5px 2px 5px;
+border:0;
+}
+fieldset{
+  width:900px;
+  border-radius:25px;
+  background-image: url(image/bg.png);
+  
+}
+fieldset legend{
+  background-image: url(image/title1.png);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  width:350px;
+ padding: 5px 14px 15px 14px;
+ height: 10px
+}
+address {
+  background: white;
+}

@@ -1,6 +1,6 @@
 import 'dart:html';
 import 'dart:convert';
-import 'package:polymerExo8/Contacts.dart';
+import 'package:polymerExo8/contacts.dart';
 import 'package:polymer/polymer.dart';
 
 @CustomTag('mon-app')
